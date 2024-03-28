@@ -67,6 +67,10 @@
 }
 
 @layer base {
+  html {
+    font-family: "Anybody", system-ui, sans-serif;
+  }
+
   * {
     @apply border-border;
   }

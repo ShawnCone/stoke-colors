@@ -42,7 +42,7 @@ function App() {
 
   return (
     <main className="text-center text-4xl py-10 flex min-h-screen flex-col gap-10 justify-center items-center">
-      <h1 className="">Which color is the sickest 🤘🤘🤘?</h1>
+      <h1 className="">Which color is the sickest 🎨🤘🤘?</h1>
       <div className="grid grid-cols-1 lg:grid-cols-4 w-full">
         {COLORS.map((color, index) => (
           <button
